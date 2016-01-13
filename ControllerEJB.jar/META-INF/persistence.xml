@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+  <persistence-unit name="Model">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/free4connvt_forum_connDS</jta-data-source>
+    <class>model.BlockedIps</class>
+    <class>model.Categories</class>
+    <class>model.Comment</class>
+    <class>model.DateFormats</class>
+    <class>model.Flood</class>
+    <class>model.History</class>
+    <class>model.Languages</class>
+    <class>model.Messages</class>
+    <class>model.Node</class>
+    <class>model.NodeAccess</class>
+    <class>model.NodeCommentStatistics</class>
+    <class>model.NodeRevision</class>
+    <class>model.NodeType</class>
+    <class>model.Role</class>
+    <class>model.RolePermission</class>
+    <class>model.Sessions</class>
+    <class>model.ShortcutSet</class>
+    <class>model.ShortcutSetUsers</class>
+    <class>model.Threads</class>
+    <class>model.UrlAlias</class>
+    <class>model.UserRelationship</class>
+    <class>model.Users</class>
+    <class>model.UsersRoles</class>
+    <properties>
+      <property name="eclipselink.target-server" value="WebLogic_10"/>
+      <property name="javax.persistence.jtaDataSource" value="jdbc/free4connvt_forum_connDS"/>
+    </properties>
+  </persistence-unit>
+</persistence>

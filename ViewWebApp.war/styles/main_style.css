@@ -1,0 +1,103 @@
+#oracle-forum-wrapper.jive-oracle-title {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#oracle-forum-wrapper.jive-description {
+    font-size: 10pt;
+}
+
+#jive-sidebar {
+    width: 175px;
+    margin-left: 10px;
+}
+
+#jive-sidebar TABLE TH {
+    white-space: nowrap;
+    border-bottom: 1px #ccc solid;
+}
+
+#jive-sidebar TABLE TH, #jive-sidebar TABLE TD {
+    padding: 3px;
+}
+
+#jive-sidebar TABLE TD A {
+    font-size: 8pt;
+    font-family: verdana;
+}
+
+.oracle-category-title2 {
+    font-weight: bold;
+}
+
+.oracle-category-title {
+    font-weight: bold;
+    font-size: 10pt !important;
+    padding-bottom: 1em;
+}
+
+.oracle-cat-list {
+    padding: 0;
+    margin: 0;
+    margin-left: 3px;
+}
+
+.oracle-cat-list LI {
+    list-style-type: none;
+}
+
+.oracle-cat-title {
+    font-weight: bold;
+    font-size: 15px !important;
+    padding-bottom: 1em;
+    font-family: arial;
+}
+
+.oracle-subcat-title {
+    font-size: 12px;
+    padding-bottom: 1em;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.oracle-subcat-title a:link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.oracle-subcat-title a:visited {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.oracle-subcat-title a:hover {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tbody {
+    display: none
+}
+
+/*.tbody_show {
+    display: inline;
+}*/
+
+.hide {
+    background: url("../pics/view.png") left no-repeat;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+.show {
+    background: url("../pics/hide.png") left no-repeat;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    padding-right: 8px;
+}

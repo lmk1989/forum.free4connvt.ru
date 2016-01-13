@@ -1,0 +1,104 @@
+.blockhead .popupctrl {
+    color: #ffffff;
+}
+
+.blockhead .popupctrl:hover {
+    color: #ffffff;
+}
+
+.blockhead .popupmenu, .blocksubhead .popupmenu {
+    display: block;
+    float: right;
+    clear: left;
+    text-transform: none;
+}
+
+.blockhead {
+    font: normal 12px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    color: #ffffff;
+    background: #888;url(images/buttons/newbtn_middle.png) repeat-x;
+    _background-image: none;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #5a7f97;
+}
+
+.blockhead h2 {
+    font-weight: bold;
+}
+
+.blockhead a {
+    color: #ffffff;
+}
+
+.blockhead a:hover {
+    color: #ffffff;
+}
+
+.blockhead img {
+    margin-bottom: -4px;
+}
+
+.blocksubhead {
+    font: normal 12px;
+    color: #3e3e3e;
+    background: #e9e9e9 none repeat-x;
+    padding: 4px 10px 4px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.blocksubhead img {
+    vertical-align: middle;
+}
+
+.blocksubhead a {
+    color: #417394;
+    text-decoration: none;
+}
+
+.blocksubhead a:hover {
+    color: #417394;
+}
+
+.blockhead_info, .blocksubhead_info {
+    float: right;
+    font-weight: normal;
+}
+
+.blockbody {
+    background: rgb(255, 255, 255) none no-repeat;
+    padding: 1%;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.blockhead a.textcontrol {
+    float: right;
+    font: bold 11px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    margin-top: -4.5px;
+    text-transform: none;
+}
+
+.blockhead a.textcontrol:hover {
+    color: #417394;
+}
+
+.blockhead a.collapse {
+    top: 10px;
+}
+
+.formcontrols .blocksubhead {
+    font-weight: bold;
+}
+
+.vbform .blockhead {
+    margin-top: 2em;
+}
+
+.vbform .blockhead:first-child {
+    margin-top: 0;
+}
+
+#wgo {
+    margin-top: 25px;
+}
