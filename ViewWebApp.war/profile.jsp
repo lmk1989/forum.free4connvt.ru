@@ -15,10 +15,12 @@
     <script type="text/javascript" src="scripts/tinymce/jquery.tinymce.min.js"></script>
     <script src="scripts/AC_RunActiveContent.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="styles/test.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/stack.css"/>
     <meta content="" name="keywords"/>
     <meta content="" name="description"/>
     </head>
     <body>
+    
     <%
         int userID = request.getParameter("userID") != null && request.getParameter("userID") != ""
                     ? Integer.parseInt(request.getParameter("userID")) 
@@ -37,7 +39,186 @@
                     <tbody>
                         <tr valign="top">
                             <td width="99%">
-                                
+                            <!----------------------------------------------------------------------------------------->
+
+                            <div class="col-content">
+                    
+
+<div id="top-tags" class="top-tags content-element">
+    <h3 class="title-section no-border">Top Tags <span>(271)</span></h3>
+        <div class="row tag-wrapper">
+                <div class="tag-container row">
+                        <div class="col col-12" title=" Gave 260 non-wiki answers with a total score of 550.">
+                            <a href="/search?q=user:760656+[java]" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a>
+    <a href="/help/badges/42/java" class="badge-tag badge2-alternate" title="Silver badge"><span class="badge2"></span></a>
+
+                            <div class="stat">
+                                <div class="row">
+                                    <div class="number">
+                                        <span>Score</span> 550
+                                    </div>
+                                    <div class="number">
+                                        <span>Posts</span> 260
+                                    </div>
+                                        <div class="number">
+                                            <span>Posts %</span> 63
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="tag-container row">
+                        <div class="col col-6" title=" Gave 246 non-wiki answers with a total score of 449.">
+                            <a href="/search?q=user:760656+[servlets]" class="post-tag" title="show questions tagged 'servlets'" rel="tag">servlets</a>
+    <a href="/help/badges/189/servlets" class="badge-tag badge2-alternate" title="Silver badge"><span class="badge2"></span></a>
+
+                            <div class="stat">
+                                <div class="row">
+                                    <div class="number">
+                                        <span>Score</span> 449
+                                    </div>
+                                    <div class="number">
+                                        <span>Posts</span> 246
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-6" title=" Gave 141 non-wiki answers with a total score of 184.">
+                            <a href="/search?q=user:760656+[jsp]" class="post-tag" title="show questions tagged 'jsp'" rel="tag">jsp</a>
+    <a href="/help/badges/348/jsp" class="badge-tag badge3-alternate" title="Bronze badge"><span class="badge3"></span></a>
+
+                            <div class="stat">
+                                <div class="row">
+                                    <div class="number">
+                                        <span>Score</span> 184
+                                    </div>
+                                    <div class="number">
+                                        <span>Posts</span> 141
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="tag-container row">
+                        <div class="col col-4" title=" Gave 32 non-wiki answers with a total score of 80.">
+                            <a href="/search?q=user:760656+[java-ee]" class="post-tag" title="show questions tagged 'java-ee'" rel="tag">java-ee</a>
+
+                            <div class="stat">
+                                <div class="row">
+                                    <div class="number">
+                                        <span>Score</span> 80
+                                    </div>
+                                    <div class="number">
+                                        <span>Posts</span> 32
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4" title=" Gave 13 non-wiki answers with a total score of 50.">
+                            <a href="/search?q=user:760656+[web-applications]" class="post-tag" title="show questions tagged 'web-applications'" rel="tag">web-applications</a>
+
+                            <div class="stat">
+                                <div class="row">
+                                    <div class="number">
+                                        <span>Score</span> 50
+                                    </div>
+                                    <div class="number">
+                                        <span>Posts</span> 13
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-4" title=" Gave 41 non-wiki answers with a total score of 46.">
+                            <a href="/search?q=user:760656+[tomcat]" class="post-tag" title="show questions tagged 'tomcat'" rel="tag">tomcat</a>
+
+                            <div class="stat">
+                                <div class="row">
+                                    <div class="number">
+                                        <span>Score</span> 46
+                                    </div>
+                                    <div class="number">
+                                        <span>Posts</span> 41
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                            <div class="view-more">
+                    <a href="/users/760656/ramesh-pvk?tab=tags">
+                        View all tags →
+                    </a>
+                </div>
+        </div>
+</div>
+
+                    
+<div id="top-posts" class="content-element top-posts">
+    <h3 id="change-post-sort" class="title-section">
+Top Posts        <span>
+            (415)
+        </span>
+            <span class="filter">
+                <span id="post-filters">
+                    <a class="active">All</a>
+                    <a data-type="1">Questions</a>
+                    <a data-type="2">Answers</a>
+                </span>
+                |
+                <span id="post-sorts">
+                    <a data-sort="Votes" class="active">Votes</a>
+                    <a data-sort="Newest">Newest</a>
+                </span>
+            </span>
+    </h3>
+        <div class="row posts-wrapper">
+                <div class="row post-container">
+                    <span class="icon-q accepted"></span>
+                    <span class="vote accepted">75</span>
+                    <a href="/questions/6760115/importing-a-github-project-into-eclipse" class="question-hyperlink">Importing a GitHub project into Eclipse</a>
+                    <span class="post-date"><span title="2011-07-20 09:59:08Z" class="relativetime">jul 20 '11</span></span>
+                </div>
+                
+                <div class="row post-container">
+                    <span class="icon-a accepted"></span>
+                    <span class="vote accepted">14</span>
+                    <a href="/questions/10868281/optimal-buffer-size-for-jsps-and-autoflush-property/10868887#10868887" class="answer-hyperlink ">Optimal buffer size for JSP's and autoflush property</a>
+                    <span class="post-date"><span title="2012-06-03 08:23:33Z" class="relativetime">jun 3 '12</span></span>
+                </div>
+                                </div>
+             <div class="view-more">
+                 View all <a href="/users/760656?tab=questions">questions</a> and <a href="/users/760656?tab=answers">answers</a> →
+             </div>
+        <script>
+            $(function () {
+                function getPosts() {
+                    $("<span/>").prependTo("#top-posts .filter").addSpinner({ marginRight: 5 });
+                    $.get("/users/profile/posts/760656", {
+                        postType: $("#post-filters > a.active[data-type]").data("type"),
+                        sort: $("#post-sorts > a.active").data("sort")
+                    }).done(function (html) {
+                        $("#top-posts").replaceWith(html);
+                    });
+
+                }
+
+                $("#post-sorts a:not(.active)").click(function () {
+                    $("#post-sorts a").removeClass("active");
+                    $(this).addClass("active");
+                    getPosts();
+                });
+                $("#post-filters a:not(.active)").click(function () {
+                    $("#post-filters a").removeClass("active");
+                    $(this).addClass("active");
+                    getPosts();
+                });
+            })
+        </script>
+</div>
+                    
+
+                </div>
+                            
+                            <!----------------------------------------------------------------------------------------->
                             </td>
                             <td width="10"></td>
                             <jsp:include page="/headerblock"/>
@@ -156,114 +337,56 @@
                                 <dl class="tabslight">
                                     <dt>Tab Content</dt>
                                     <dd class="userprof_module">
-                                        <a onclick="return tabViewPicker(this);"
-                                           href=""
+                                        <a onclick=""
+                                           href="javascript:void(0)"
                                            id="activitystream-tab"><%=user.getName()%> Activity</a>
                                     </dd>
                                     <dd class="userprof_moduleinactive">
-                                        <a onclick="return tabViewPicker(this);"
-                                           href="" id="aboutme-tab">Personal</a>
+                                        <a onclick=""
+                                           href="javascript:void(0)" id="aboutme-tab">Personal</a>
                                     </dd>
                                     <dd class="userprof_moduleinactive">
-                                        <a onclick="return tabViewPicker(this);"
-                                           href="" id="friends-tab">Contacts</a>
+                                        <a onclick=""
+                                           href="javascript:void(0)" id="friends-tab">Contacts</a>
                                     </dd>
                                     <dd class="userprof_moduleinactive">
-                                        <a onclick="return tabViewPicker(this);"
-                                           href="" id="blog-tab">Дневник</a>
+                                        <a onclick=""
+                                           href="javascript:void(0)" id="blog-tab">Дневник</a>
                                     </dd>
                                     <dd class="userprof_moduleinactive">
-                                        <a onclick="return tabViewPicker(this);"
-                                           href="" id="myranks-tab">Rang</a>
+                                        <a onclick=""
+                                           href="javascript:void(0)" id="myranks-tab">Rang</a>
                                     </dd>
                                 </dl>
                             </div>
                             <div class="memberprofiletabunder"></div>
                         </div>
+                        <script type="text/javascript">
+                            $('#tab_container .tabslight > dd').click(function() {                                        
+                                if(!$(this).hasClass("userprof_module")) {
+                                    $('#tab_container .tabslight > dd.userprof_module').toggleClass('userprof_moduleinactive');
+                                    $('#tab_container .tabslight > dd.userprof_module').toggleClass('userprof_module');
+                                    $(this).toggleClass("userprof_moduleinactive");
+                                    $(this).toggleClass("userprof_module");
+                                    $('.profile_content > div.selected_view_section').toggleClass('view_section');
+                                    $('.profile_content > div.selected_view_section').toggleClass('selected_view_section');
+                                    $('.profile_content > div').eq($(this).index() - 1).toggleClass('view_section');
+                                    $('.profile_content > div').eq($(this).index() - 1).toggleClass('selected_view_section');
+                                }
+                            });
+                        </script>
                         <div class="profile_content userprof">
                             <div class="selected_view_section" id="view-activitystream">
                                 <!-- activitystream -->
                                 <div class="subsection block" id="view-activitystream">
-                                    <div class="activitystream_block">
-                                        <div id="activity_tab_container">
-                                            <div>
-                                                <dl class="as-tabs">
-                                                    <dt>Tab Content</dt>
-                                                    
-                                                    <dd id="asuser" class="selected">
-                                                        <div>
-                                                            <a href=""><%=user.getName()%></a>
-                                                        </div>
-                                                    </dd>
-                                                    <dd id="asfriend">
-                                                        <div>
-                                                            <a href="">Contacts</a>
-                                                        </div>
-                                                    </dd>
-                                                    
-                                                </dl>
-                                            </div>
-                                        </div>
-                                        <div class="newactivity hidden userprof_headers userprof_headers_border"
-                                             id="newactivity_container">
-                                            <span href="#" id="newactivitylink">New Activity (
-                                                <span id="newactivitycount"></span>)</span>
-                                        </div>
-                                        <ul id="activitylist">
-                                            <li class="hidden" id="olderactivity">
-                                                <div class="block1">
-                                                    <hr/>
-                                                </div>
-                                                <div class="block2">Older Activity</div>
-                                                <div class="block3">
-                                                    <hr/>
-                                                </div>
-                                            </li>
-                                            <%for(Messages message : (List<Messages>)user.getMessagesList()){%>
-                                            <%pageController pcontroller = handler.getPageProperties();%>
-                                            <li class="activitybit forum_post">
-                                                <div class="avatar">
-                                                    <img alt="Аватар для <%=message.getUsers().getName()%>" src="<%=message.getUsers().getPicture()%>"/>
-                                                </div>
-                                                <div class="content hasavatar">
-                                                    <div class="datetime">
-                                                        <span class="date"><%=message.getPosted().split(" ")[0]%>
-                                                            <span class="time"><%=message.getPosted().split(" ")[1]%></span></span>
-                                                    </div>
-                                                    <div class="title">
-                                                        <a href="profile.jsp?userID=<%=message.getUsers().getUid()%>"><%=message.getUsers().getName()%></a>
-                                                         replied to a thread 
-                                                        <a href="thread.jsp?threadID=<%=message.getThreads().getThread_id()%>"><%=message.getThreads().getTitle().length() < 35 ? message.getThreads().getTitle() : message.getThreads().getTitle().substring(0, 35) + "..."%></a>
-                                                         in 
-                                                        <a href="category.jsp?categoryID=<%=message.getThreads().getCategories().getCategory_id()%>"><%=message.getThreads().getCategories().getTitle().length() < 35 ? message.getThreads().getCategories().getTitle() : message.getThreads().getCategories().getTitle().substring(0, 35) + "..."%></a>
-                                                    </div>
-                                                    <div class="excerpt"><%=message.getText().length() < 140 ? message.getText() : message.getText().substring(0, 140) + "..."%></div>
-                                                    <div class="fulllink">
-                                                        <a href="thread.jsp?threadID=<%=message.getThreads().getThread_id()%>&message#<%=controller.positionInThread(message.getThreads(), message)%>">see more</a>
-                                                    </div>
-                                                </div>
-                                                <div class="views"><%=message.getThreads().getMessagesList().size() - 1%> replies | <%=message.getThreads().getViews()%> view(s)</div>
-                                            </li>
-                                            <%pcontroller=null;%>
-                                            <%}%>
-                                        </ul>
-                                        
-                                        <div class="moreactivity userprof_headers userprof_headers_border"
-                                             id="moreactivity_container">
-                                            <a href=""
-                                               id="moreactivitylink">More Activity</a>
-                                             
-                                            <span id="noresults" class="hidden">No More Results</span>
-                                             
-                                            <img alt="~~Progress~~" src="images/misc/progress3.gif" class="hidden"
-                                                 id="moreactivityprogress" title="~~Progress~~"/>
-                                        </div>
-                                    </div>
+                                
+                                    <jsp:include page="/activitylist"/>
+                                    
                                 </div>
                                 <div class="underblock"></div>
                                 <!-- / activitystream -->
                             </div>
-                            <div class="view_section vm_other_prof" id="view-visitor_messaging"></div>
+                            
                             <div class="view_section" id="view-aboutme">
                                 <div class="blocksubhead subsectionhead userprof_headers userprof_headers_border">
                                     <span class="subsectiontitle">О <%=user.getName()%></span>
@@ -275,30 +398,30 @@
                                 <div class="subsection">
                                     <div class="blockbody userprof_content userprof_content_border">
                                         <dl class="stats agerow">
-                                            <dt>Дата рождения</dt>
-                                            <dd>17.08</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl>
                                          
                                         <h5 class="subblocksubhead subsubsectionhead first">О <%=user.getName()%></h5>
                                          
                                         <dl>
-                                            <dt>Местоположение:</dt>
-                                            <dd>Россия</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl><dl>
-                                            <dt>Интересы:</dt>
-                                            <dd>Философия, Астрономия, История, Поэзия</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl><dl>
-                                            <dt>Чем занимаетесь:</dt>
-                                            <dd>Разработка компьютерных игр</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl><dl>
-                                            <dt>Пол:</dt>
-                                            <dd>Мужской</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl><dl>
-                                            <dt>Ваша фракция:</dt>
-                                            <dd>Орда</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl><dl>
-                                            <dt>На каком логоне Вы играете:</dt>
-                                            <dd>logon 3</dd>
+                                            <dt></dt>
+                                            <dd></dd>
                                         </dl>
                                     </div>
                                 </div>
@@ -309,38 +432,7 @@
                                 </div>
                                 <div class="blockbody subsection userprof_content userprof_content_border">
                                     <div style="text-align: right;">
-                                        <img border="0" alt=""
-                                             src="http://s019.radikal.ru/i634/1509/92/47ad22147ed1.png"/><span style="font-family: arial"> 
-                                            <b>
-                                                <font size="2">
-                                                    <br/>
-                                                    Занимаюсь
-                                                    <font color="#ff0000">исключительно</font>
-                                                    мирами Logon 3
-                                                    <br/>
-                                                </font></b></span><span style="font-family: arial"> 
-                                            <b>
-                                                <font size="2">
-                                                    Реалмлист: set realmlist logon3.wowcircle.com
-                                                    <br/>
-                                                    Связаться со мной:
-                                                    <a target="_blank" href="">test</a>
-                                                    <br/>
-                                                    Наша группа вконтакте:
-                                                    <a target="_blank" href="">test</a>
-                                                </font></b></span><br/>
-                                         
-                                        <span style="font-family: arial"> 
-                                            <b>
-                                                <font size="2">
-                                                    Личный кабинет:
-                                                    <a target="_blank" href="">http://cp3.wowcircle.com</a>
-                                                    <br/>
-                                                    <a target="_blank" href="">Правила игровых миров</a>
-                                                    Logon 3
-                                                </font></b></span>
-                                         
-                                        <br/>
+                                        test
                                     </div>
                                 </div>
                                 <!-- stats -->
@@ -413,17 +505,17 @@
                                             <div class="friend_info">
                                                 <h4>
                                                     <a class="username" href="">
-                                                        <span style="color: #FF6600;">Apostol</span></a>
+                                                        <span style="color: #FF6600;">test</span></a>
                                                     &nbsp;
-                                                    <img border="0" alt="Apostol вне форума"
+                                                    <img border="0" alt="test вне форума"
                                                          src="images/statusicon/user-offline.png"
-                                                         class="inlineimg onlinestatus" title="Apostol вне форума"/>
+                                                         class="inlineimg onlinestatus" title="test вне форума"/>
                                                 </h4>
-                                                <p class="description">Системный администратор (Logon 3)</p>
+                                                <p class="description">Системный администратор</p>
                                                 <div class="presence"></div>
                                             </div>
                                             <a href="" class="image_friend_link">
-                                                <img alt="Apostol" src="images/misc/unknown.gif" title="Apostol"/></a>
+                                                <img alt="test" src="images/misc/unknown.gif" title="test"/></a>
                                         </li>
                                     </ol>
                                     <!-- friends_list -->
@@ -472,8 +564,7 @@
                                 </div>
                                 <!-- view-friends -->
                             </div>
-                            <div class="view_section" id="view-infractions-content"></div>
-                            <div class="view_section" id="view-reputation-content"></div>
+                            
                             <div class="view_section" id="view-blog">
                                 <a class="floatright" href="">Просмотреть дневник <%=user.getName()%></a>
                                 <div class="blocksubhead subsectionhead userprof_headers userprof_headers_border">
@@ -498,8 +589,7 @@
                                             </div>
                                             <blockquote class="blog_content">
                                                 <div style="text-align: center;">
-                                                    <img border="0" alt=""
-                                                         src="http://s020.radikal.ru/i721/1310/2e/75a7174b64e5.jpg"/><br/>
+                                                    <br/>
                                                 </div>
                                                 <br/>
                                                 TEST
@@ -536,55 +626,7 @@
                                                                                                                       0
                                                                                                                       Баллов</div>
                                     <div class="blockbody">
-                                        <table width="100%">
-                                            <tbody>
-                                                <tr align="center">
-                                                    <th nowrap="nowrap" class="blocksubhead">Icon</th>
-                                                    <th nowrap="nowrap" class="blocksubhead">Image</th>
-                                                    <th width="100%" class="blocksubhead">Description</th>
-                                                </tr>
-                                                <tr>
-                                                    <td align="center" class="">
-                                                        <br/>
-                                                         
-                                                        <img border="0"
-                                                             src="http://4.firepic.org/4/images/2013-12/06/s6910hqtxadp.png"/>
-                                                    </td>
-                                                    <td valign="top" align="center" class="">
-                                                        <br/>
-                                                         
-                                                        <a href="">
-                                                            <img border="0"
-                                                                 src="http://4.firepic.org/4/images/2013-12/06/s6910hqtxadp.png"/></a>
-                                                    </td>
-                                                    <td valign="top" class="">
-                                                        <br/>
-                                                         
-                                                        <a name="ra_issue1522"></a>
-                                                         Name: 
-                                                        <b>Потомок Virgin WoW</b><br/>
-                                                         Значок для пользователей с Logon 3 за преданность проекту.
-                                                        Выдаётся пользователям играющим на Logon 3 с 2009 года, для
-                                                        получения значка обратитесь к &quot;Кодекс&quot;
-                                                        <div style="font-size:11px">
-                                                            <fieldset class="fieldset">
-                                                                <table cellspacing="" cellpadding="0" border="0">
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <i>Issue time: 08.10.2012 02:49
-                                                                                    <br/><i>Issue reason: Пророк
-                                                                                            (23/06/2009)</i></i>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </fieldset>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        test
                                     </div>
                                 </div>
                             </div>

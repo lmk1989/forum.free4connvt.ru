@@ -123,7 +123,11 @@
                           </td>
                           <td class="jive-author" width="1%" nowrap="">
                             <span class="jive-author-content" style="position: relative;">
-                              <a title="<%=thread.getUsers().getName()%>" href="profile.jsp?userID=<%=thread.getUsers().getUid()%>" onclick="$(this).parent().find('#uid-<%=thread.getUsers().getUid()%>').toggleClass('open'); return false;">
+                              <a title="<%=thread.getUsers().getName()%>" href="profile.jsp?userID=<%=thread.getUsers().getUid()%>" onclick="!$(this).parent().find('ul').hasClass('open')
+                                                                                                                                             ? ($('ul.memberaction_body.open').toggleClass('open'), 
+                                                                                                                                                $(this).parent().find('ul').toggleClass('open'))
+                                                                                                                                             : $(this).parent().find('ul').toggleClass('open');
+                                                                                                                                             return false;">
                                 <%=thread.getUsers().getName()%>
                               </a>
                               <ul class="popupbody memberaction_body" id="uid-<%=thread.getUsers().getUid()%>">

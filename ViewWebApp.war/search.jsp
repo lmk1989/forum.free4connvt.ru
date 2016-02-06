@@ -80,13 +80,10 @@
                       </li>
                     </ul>
                     <script type="text/javascript">
-                    $('#searchtabs.jivetabs li').click(function() {
+                    $('#searchtabs li').click(function() {
                         if(!$(this).hasClass("current")) {
+                            $('#searchtabs li.current').toggleClass('current');
                             $(this).toggleClass("current");
-                            current=$(this).index();
-                            $('#searchtabs.jivetabs li').each(function(){
-                                if(current!=$(this).index())$(this).toggleClass("current");
-                            });
                         }
                     });
                     </script>

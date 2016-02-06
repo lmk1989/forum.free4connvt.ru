@@ -209,7 +209,13 @@
                                             <tr valign="top">
                                               <td width="1%" style="padding:0px; position: relative;">
                                                 <img src="pics/<%=connector.isActive(message.getUsers().getName())?"online":"offline"%>_status.png" class="status" width="16" height="16" border="0" alt="Online"/>
-                                                <a href="profile.jsp?userID=<%=message.getUsers().getUid()%>" title="<%=message.getUsers().getName()%>" onclick="$(this).parent().find('#uid-<%=message.getUsers().getUid()%>').toggleClass('open'); return false;"><%=message.getUsers().getName()%></a>
+                                                <a href="profile.jsp?userID=<%=message.getUsers().getUid()%>" title="<%=message.getUsers().getName()%>" onclick="!$(this).parent().find('ul').hasClass('open')
+                                                                                                                                                                 ? ($('ul.memberaction_body.open').toggleClass('open'), 
+                                                                                                                                                                    $(this).parent().find('ul').toggleClass('open'))
+                                                                                                                                                                 : $(this).parent().find('ul').toggleClass('open');
+                                                                                                                                                                 return false;">
+                                                    <%=message.getUsers().getName()%>
+                                                </a>
                                                 <ul class="popupbody memberaction_body" id="uid-<%=message.getUsers().getUid()%>">
                                                     <li class="left">
                                                         <a class="siteicon_profile" href="profile.jsp?userID=<%=message.getUsers().getUid()%>">Просмотр профиля</a>
